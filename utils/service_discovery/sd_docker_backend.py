@@ -5,6 +5,7 @@
 # std
 import logging
 import simplejson as json
+import copy
 
 # 3rd party
 from docker.errors import NullResource, NotFound
